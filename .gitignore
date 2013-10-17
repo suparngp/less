@@ -1,15 +1,20 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+# OS and IDE
+.emacs*
+*.flymake
+*~
+.#*
+.idea
+*.sublime-*
 
-pids
-logs
-results
-
-npm-debug.log
+# npm
 node_modules
+npm-debug.log
+
+# project-specific
+tmp
+test/browser/less.js
+test/sourcemaps/*.map
+test/sourcemaps/*.css
+
+# grunt
+.grunt
