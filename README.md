@@ -1,4 +1,4 @@
-less
+less-enhanced
 ====
 
 Enhanced version of less.js with added functions
